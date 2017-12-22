@@ -1,0 +1,56 @@
+h1{
+  text-align: center
+}
+.imgHolder{
+  position: absolute;
+  top:20%;
+  left:20%;
+}
+
+.colorSelector{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+flex-wrap: nowrap;
+  width:auto;
+ 
+  height: auto;
+  position: absolute;
+  /* outline: 1px solid orange; */
+  top:80%;
+  left: 20%;
+}
+.colorItem{
+  border: 1px dashed rgb(118, 118, 118);
+  padding: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+ 
+}
+.colorBlue{
+  background-color:#203E6C
+}
+.colorRed{
+  background-color:#652416
+}
+.colorGreen{
+  background-color:#26652D;
+}
+.colorBlack{
+  background-color: #000;
+}
+.colorOrange{
+  background-color:orange;
+}
+.colorWhitePure{
+  background-color: rgb(242, 241, 241);
+}
+.colorGraphite{
+  background-color:rgb(159, 158, 158);
+}
+.colorPurple{
+  background-color:#592260
+}
+.colorDarkYellow{
+  background-color:#65692F;
+}
